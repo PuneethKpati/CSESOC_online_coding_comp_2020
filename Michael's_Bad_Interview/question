@@ -1,0 +1,63 @@
+Michael scored an interview with HackerRank for an internship. However, he can't even answer the first question! Help Michael score that internship by swooping in and writing a short program that prints each number from 1 to n on a new line.
+
+However, this program has a twist.
+
+For each multiple of 4, print "CSESoc" instead of the number.
+
+For each multiple of 6, print "Rocks" instead of the number.
+
+For numbers which are multiples of both 4 and 6, print "CSESocRocks" instead of the number.
+
+Hurry! If Michael doesn't score this internship, he's going to be unemployed :(
+
+Input Format
+
+The first line contains an integer, n. This is already provided for you.
+
+Constraints
+
+0< n < 10000
+
+Output Format
+
+Print n lines. You must print to stdout.
+
+Sample Input 0
+
+6
+
+Sample Output 0
+
+1
+2
+3
+CSESoc
+5
+Rocks
+
+Explanation 0
+
+On line 4, 'CSESoc' is printed since the number is divisible by 4. On line 6, 'Rocks' is printed since the number is divisble by 6.
+
+Sample Input 1
+
+12
+
+Sample Output 1
+
+1
+2
+3
+CSESoc
+5
+Rocks
+7
+CSESoc
+9
+10
+11
+CSESocRocks
+
+Explanation 1
+
+On lines 4 and 8, 'CSESoc' is printed since the number is divisible by 4. On line 6, 'Rocks' is printed since the number is divisble by 6. On line 12, 'CSESocRocks' is printed since the number is divisible by both 4 and 6.
